@@ -119,7 +119,7 @@ function display_menu(menuitems){
         return `<div class="col1">
         <article class="menu-items">
         
-        <img src="${item.src}" alt=""  id="item-image">
+        <img src="${item.src}" alt=""  id="item-image" loading="lazy">
         <div class="item-info">
         
         <h2 id="item-title">${item.title}</h2>
